@@ -43,7 +43,7 @@ jobs:
             text.md
           sed -i \
             -e "s/{{SLIDES_TITLE}}/${SLIDES_TITLE}/g" \
-            -e "s/{{SLIDES_AUTHOR}}/${SLIDES_AUTHOR}/g" \1. 🎉 Your presentation is ready to edit
+            -e "s/{{SLIDES_AUTHOR}}/${SLIDES_AUTHOR}/g" \
             -e "s/{{REPO}}/${REPO}/g" \
             index.html
       - name: Update README
